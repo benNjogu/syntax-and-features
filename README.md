@@ -107,3 +107,21 @@ e.g.
     const printVehicle = (vehicle: Vehicle): void => {
     
     };
+
+# class
+- Blueprint to create an object with some fields(values) and methods(functions) to represent a thing.
+
+# class modifiers
+- keywords that we can place on different methods and/or properties inside a class that restrict their accessibility.
+
+Public
+- the property or method can be called anywhere anytime.
+
+Private
+- the property or method can only be called by other methods in this class.
+
+Protected
+- the property or method can be called anywhere in this class or children classes only.
+
+    interfaces + classes = really strong code reuse.
+
