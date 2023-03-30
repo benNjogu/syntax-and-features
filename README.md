@@ -89,3 +89,8 @@ why;
 
 when to use:
 - any time we need to represent a collection of records with some arbitrary sort order. 
+
+# Tuples
+- array-like structure where each element represents some property of a record.
+
+
