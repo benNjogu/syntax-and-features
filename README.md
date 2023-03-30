@@ -73,7 +73,7 @@ when to use:
 2.2 Functions
 - Typescript tries to figure out what kind of value a function will return.
 
-Any Type
+# Any
 - A type just as boolean and string
 - Means TS has no idea what this is - can't check for correct  property references.
 - Avoid variables with any at all cost.
