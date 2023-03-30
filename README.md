@@ -77,3 +77,13 @@ when to use:
 - A type just as boolean and string
 - Means TS has no idea what this is - can't check for correct  property references.
 - Avoid variables with any at all cost.
+
+# Typed Arrays
+- Arrays where each element is some consistent type of value
+why;
+- TS can do type inference when extracting values from an array.
+- TS can prevent us from adding incompatible values to the array.
+- We can get help with 'map', 'forEach', 'reduce', function.
+- Flexible - arrays can still contain multiple different types. 
+when to use:
+- any time we need to represent a collection of records with some arbitrary sort order. 
