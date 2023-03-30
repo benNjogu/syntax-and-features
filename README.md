@@ -93,4 +93,17 @@ when to use:
 # Tuples
 - array-like structure where each element represents some property of a record.
 
+# interface
+- Creates a new type, describing the property names and value types of an object.
 
+e.g.
+
+    interface Vehicle {
+        v_name: string;
+        year: number;
+        broken: boolean;
+    }
+
+    const printVehicle = (vehicle: Vehicle): void => {
+    
+    };
